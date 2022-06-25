@@ -281,15 +281,18 @@ input, textarea {
   
   .form, button {
     width:100%;
-    border: 2px; 
-    padding: 1rem;
+    border: 2px solid rgb(200, 200, 205); 
+    padding: 0.8rem;
     display: inline-block;
-    font-weight: 400;
+    font-size: 1rem;
+    width: 100%;
     cursor: pointer;
+    vertical-align: top;
   }
 
-  form input: focus,
-  form textarea: focus {
+
+  form input:focus,
+  form textarea:focus {
     border-colour: teal;
   }
 
