@@ -281,12 +281,18 @@ input, textarea {
   
   .form, button {
     width:100%;
-    border: 2px solid; 
-    padding: 1rem 1rem;
+    border: 2px; 
+    padding: 1rem;
     display: inline-block;
     font-weight: 400;
     cursor: pointer;
   }
+
+  form input: focus,
+  form textarea: focus {
+    border-colour: teal;
+  }
+
 
     @media(max-width:768px) {
      .email-signup input {
