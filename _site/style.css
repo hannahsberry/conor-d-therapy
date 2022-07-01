@@ -179,8 +179,6 @@ a:hover { color: #a2745c; }
 }
 
 
-
-
 /* Header & Footer  */
 
 header {
@@ -256,8 +254,9 @@ input, textarea {
     font-size: 1rem;
     vertical-align: top;
     font-family: inherit;
-    border-radius: 12px;
-    color: rgb(230, 230, 230);
+    /* border-radius: 12px; */
+    color: grey;
+    cursor: pointer;
   }
 
   input:focus,
@@ -370,6 +369,7 @@ input, textarea {
     position: relative;
     margin: auto;
     border-radius: 5px;
+    cursor: pointer;
   }
   #cookiePopup a {
     color: #6859fe;
